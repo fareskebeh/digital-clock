@@ -8,7 +8,6 @@ This is a simple digital clock application
 - Very simple and lightweight
 
 ## Installation
-1. Clone the repository:
+  Clone the repository:
   ```bash
   git clone https://github.com/fareskebeh/digital-clock.git
-2. Enjoy!
