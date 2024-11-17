@@ -1,6 +1,10 @@
 @font-face {
   font-family: 'Digital';
-  src: url(fonts/DIGITAL/DS-DIGIT.TTF);
+  src: url(fonts/DIGITAL/DS-DIGIB.TTF);
+}
+@font-face {
+  font-family: 'Fira';
+  src: url(fonts/FIRA/FiraCode-VariableFont_wght.ttf);
 }
 
 * {
@@ -10,8 +14,8 @@
 }
 
 body {
-  background-color: #130202;
-  color:red;
+  background-color: #000000;
+  color:#5c5c5c;
 }
 
 .clock {
@@ -21,11 +25,22 @@ body {
   transform: translate(-50%,-50%);
   text-align: center;
 }
+
 .clock > div {
   display: flex;
   flex-direction: column;
   gap:10px;
   justify-content: center;
+}
+
+.clock h2 {
+  font-family:'Fira';
+  letter-spacing:8px;
+}
+
+.clock p {
+  font-weight:bold;
+  font-size:1.5em;
 }
 
 @media only screen and (min-width:768px) {
